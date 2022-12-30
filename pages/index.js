@@ -221,10 +221,23 @@ export default function Home() {
           </header>
           <section className="container darkseagreen">
             <div className="main white">
-              <h4>Who we are</h4>
+              <h4>What is Zonta?</h4>
               <h6>
-                Professional team of ThemeRex studio presents this terrific
-                Infographic Theme
+                Zonta is a type of crypto currency. Zonta Coin is a
+                decentralized cryptocurrency that is built on the EOS
+                blockchain. Its main goal is to provide a fast, secure, and
+                cost-effective alternative to traditional payment methods. One
+                of the key features of Zonta Coin is that it has zero
+                transaction fees, making it an attractive option for users who
+                want to send and receive payments without incurring any
+                additional costs.
+              </h6>
+              <h6>
+                Zonta Coin is a decentralized cryptocurrency built on the EOS
+                blockchain that aims to revolutionize the way people transact
+                online. With its zero transaction fee model, Zonta Coin is
+                poised to become the preferred choice for online payments and
+                micropayments.
               </h6>
               <div id="about">
                 <a href="" className="item">
@@ -617,43 +630,146 @@ export default function Home() {
           </section>
           <section id="dev_container" className="container pad90">
             <div className="main">
-              <h4>
-                rock is easily adaptable to <br /> any mobile device
+              <h4>How Zonta Will Revolutionize Services Sector</h4>
+              <h4 className="light gray">
+                Zonta Coin has the potential to revolutionize the services
+                sector, particularly in the area of hedge funds. Hedge funds are
+                investment vehicles that use a variety of strategies, including
+                leveraging, short selling, and derivatives, to generate returns
+                for their investors. However, they are often associated with
+                high fees and a lack of transparency, which can make them
+                unattractive to many investors.
               </h4>
               <h4 className="light gray">
-                The fact of prevalence of mobile devices obliges to adjust any
-                website to their peculiarity at maximum degree. <br /> We have
-                done our best for your website based on p.xel to blend with this
-                trend.
+                By using Zonta Coin and the EOS blockchain, hedge funds can
+                offer a more cost-effective and transparent investment option to
+                their clients. With zero transaction fees and real-time
+                settlement, Zonta Coin can help to reduce the costs associated
+                with investing in hedge funds, making them more accessible to a
+                wider range of investors.
               </h4>
-              <div id="devices">
-                <div className="item">
-                  <img src="images/ledcinema.png" alt="" />
-                  <span>Retina Ready</span>
-                </div>
-                <div className="arrow"></div>
-                <div className="item">
-                  <img src="images/macbook.png" alt="" />
-                  <span>Tablet friendly</span>
-                </div>
-                <div className="arrow"></div>
-                <div className="item">
-                  {" "}
-                  <img src="images/mobile.png" alt="" />
-                  <span>100% responsive</span>
+              <h4 className="light gray">
+                Additionally, the use of smart contracts on the EOS blockchain
+                can help to increase transparency and accountability in the
+                hedge fund industry. Smart contracts are self-executing
+                contracts with the terms of the agreement between buyer and
+                seller being directly written into lines of code. This can help
+                to reduce the risk of fraud or mismanagement, as all
+                transactions are recorded on the blockchain and can be easily
+                audited.
+              </h4>
+              <h4 className="light gray">
+                Overall, the adoption of Zonta Coin and the EOS blockchain in
+                the hedge fund industry has the potential to revolutionize the
+                way that these services are provided, making them more
+                cost-effective and transparent for investors.
+              </h4>
+              <h4 className="light gray">
+                Zonta Coin has the potential to revolutionize the services
+                sector by offering a stable and inflation-proof cryptocurrency.
+                Inflation is a measure of the rate at which the general level of
+                prices for goods and services is rising, and subsequently,
+                purchasing power is falling. Central banks attempt to limit
+                inflation and avoid deflation in order to keep the economy
+                running smoothly.
+              </h4>
+              <h4 className="light gray">
+                One of the key features of Zonta Coin is its zero inflation
+                policy. This means that the supply of Zonta Coins is carefully
+                managed through a decentralized autonomous organization (DAO),
+                which allows for transparent and democratic decision-making
+                about the distribution and use of the coin. This helps to ensure
+                that the value of Zonta Coin remains stable over time, rather
+                than being subject to the fluctuations that can occur with other
+                cryptocurrencies.
+              </h4>
+              <h4 className="light gray">
+                The stability of Zonta Coin can have a number of benefits for
+                the services sector. For example, businesses that accept Zonta
+                Coin as a form of payment can be more confident that the value
+                of their income will not be eroded over time by inflation. This
+                can help to improve financial planning and budgeting for
+                businesses, as they can have a better understanding of the
+                long-term value of their income.
+              </h4>
+              <h4 className="light gray">
+                Additionally, the stability of Zonta Coin can also be attractive
+                to consumers, who may be more likely to use a stable and
+                reliable form of payment rather than one that is subject to
+                fluctuations in value. This can help to drive adoption and usage
+                of Zonta Coin in the services sector, which can lead to a more
+                efficient and effective economy overall.
+              </h4>
+              <h4 className="light gray">
+                In conclusion, the zero inflation policy of Zonta Coin has the
+                potential to revolutionize the services sector by offering a
+                stable and reliable form of payment that is resistant to
+                inflation. This can help to improve financial planning and
+                budgeting for businesses, as well as increasing confidence and
+                adoption among consumers.
+              </h4>
+              <div>
+                <div id="devices">
+                  <div className="item">
+                    <img src="images/ledcinema.png" alt="" />
+                    <span>Retina Ready</span>
+                  </div>
+                  <div className="arrow"></div>
+                  <div className="item">
+                    <img src="images/macbook.png" alt="" />
+                    <span>Tablet friendly</span>
+                  </div>
+                  <div className="arrow"></div>
+                  <div className="item">
+                    {" "}
+                    <img src="images/mobile.png" alt="" />
+                    <span>100% responsive</span>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
           <section className="container pad90 cornsilk">
             <div className="main">
-              <h4>what we do</h4>
-              <h6>more information about rock group features</h6>
-              <h4 className="light gray">
+              <h4>How You Will Be Able to Swap Tokens?</h4>
+              <h6>
+                Swapping tokens refers to the process of exchanging one
+                cryptocurrency for another. There are a number of ways that you
+                can swap tokens, and the specific method you use will depend on
+                your specific needs and preferences.
+              </h6>
+              {/* <h4 className="light gray">
                 ThemeRex worked out an amazing combination of vast
                 fucntionalilty and user’s comfort. Thanks to an amazingly user
                 friendly TRX Framework, customers have a chance to customize
                 their theme the way they like.{" "}
+              </h4> */}
+              <h4 className="light gray">
+                One way to swap tokens with zero payment fees is to use a
+                decentralized exchange (DEX). A DEX is a cryptocurrency exchange
+                that is built on a decentralized platform, such as the Ethereum
+                blockchain. This means that it is not controlled by a single
+                centralized entity, and users can trade directly with each other
+                without the need for intermediaries. <br />
+                To use a DEX to swap tokens with zero payment fees, you will
+                need to have a wallet that is compatible with the DEX and the
+                cryptocurrencies you want to trade. You will also need to have
+                some of the tokens that you want to exchange in your wallet.{" "}
+                <br />
+                Once you have set up your wallet and have the required tokens,
+                you can use the DEX to search for a trade that meets your
+                specific needs. This will typically involve specifying the
+                tokens you want to trade, the amount you want to trade, and the
+                price you are willing to pay or accept. <br />
+                Once you have found a trade that meets your requirements, you
+                can initiate the swap by placing an order on the DEX. The tokens
+                will then be exchanged between your wallet and the
+                counterparty's wallet, and the trade will be completed. <br />
+                In conclusion, you can use a DEX to swap tokens with zero
+                payment fees by setting up a compatible wallet and using the DEX
+                to find and initiate a trade. This can be a convenient and
+                cost-effective way to exchange tokens without incurring any
+                additional fees.
               </h4>
               <div className="diagram_skills resp marg90">
                 <div className="title">
