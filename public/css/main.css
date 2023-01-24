@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.roadmap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 3rem auto;
+  color: #000000 !important;
+}
+.roadmap .line {
+  position: absolute;
+  top: 30%;
+  right: 17%;
+  transform: translate(-50%);
+  width: 600px;
+  border-bottom: 4px dotted;
+}
+.roadmap .roadmap-items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.roadmap strong {
+  text-decoration: underline !important;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-style: italic;
+}
+
+.point-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid yellow;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: rgb(145, 134, 85);
+}
+.roadmap .roadmap-items:nth-child(2) .point-icon {
+  border: 3px solid green;
+}
+.roadmap .roadmap-items:nth-child(3) .point-icon {
+  border: 3px solid yellow;
+}
+.roadmap .roadmap-items:nth-child(4) .point-icon {
+  border: 3px solid black;
+}
+.point-icon img {
+  width: 50px;
+  height: auto !important;
+}
+.roadmap-items ul {
+  text-align: left !important;
+  line-height: 1.7;
+}
+
+/* pool-section  */
+.staking,
+.pool {
+  padding: 4rem 0;
+}
+.earn-section,
+.pool-section {
+  text-align: left !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.earn-section p,
+.pool-section p {
+  line-height: 1.5;
+}
+.earn-section {
+  max-width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  align-items: start;
+}
+.earn-section .item {
+  width: 300px;
+}
+.earn-section .item h3,
+.earn-section .item h4 {
+  text-align: center !important;
+}
+.sub-text {
+  max-width: 400px;
+  margin-right: 2rem;
+}
+.ourGoals {
+  display: flex;
+  justify-content: center;
+}
+.goals-items {
+  display: flex;
+  align-items: center;
+}
+.goals-items p {
+  max-width: 300px;
+  text-align: left !important;
+  margin-top: 0;
+}
+.titleNo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid black;
+  padding: 1rem;
+  font-size: 2.5rem;
+  margin: 0 1rem;
+  font-style: italic;
+  background-color: #ffffff;
+  /* font-family: "Montserrat", sans-serif; */
+  font-style: italic;
+  font-weight: 700;
+}
+.goals-items .item-1 {
+  color: orangered;
+}
+.goals-items .item-3 {
+  color: yellow !important;
+}
+.goals-items .item-2 {
+  color: lawngreen !important;
+}
+.goals-items .item-4 {
+  color: green !important;
+}
+.goals-items h5 {
+  text-align: left !important;
+  margin-bottom: 0.5rem;
+}

@@ -14,6 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
         <link
           rel="stylesheet"
           type="text/css"
@@ -136,8 +137,12 @@ export default function Home() {
                   </li>
                   <li className="logo">
                     <a href="/">
-                      <img src="images/logo.png" alt="" />
-                      <h3>rock group</h3>
+                      <img
+                        style={{ width: 80 }}
+                        src="images/logo-new.png"
+                        alt=""
+                      />
+                      <h3>Zonta Coin</h3>
                       <h6>infographic theme</h6>
                     </a>
                   </li>
@@ -159,8 +164,12 @@ export default function Home() {
                   </li>
                   <li className="logo">
                     <a href="/">
-                      <img src="images/logo.png" alt="" />
-                      <h3>rock group</h3>
+                      <img
+                        style={{ width: 50 }}
+                        src="images/logo-new.png"
+                        alt=""
+                      />
+                      <h3>Zonta Coin</h3>
                       <h6>infographic theme</h6>
                     </a>
                   </li>
@@ -222,7 +231,7 @@ export default function Home() {
           <section className="container darkseagreen">
             <div className="main white">
               <h4>What is Zonta?</h4>
-              <h6>
+              {/* <h6>
                 Zonta is a type of crypto currency. Zonta Coin is a
                 decentralized cryptocurrency that is built on the EOS
                 blockchain. Its main goal is to provide a fast, secure, and
@@ -238,21 +247,21 @@ export default function Home() {
                 online. With its zero transaction fee model, Zonta Coin is
                 poised to become the preferred choice for online payments and
                 micropayments.
-              </h6>
+              </h6> */}
               <div id="about">
                 <a href="" className="item">
                   <img src="images/1.png" alt="" />
-                  <span>Fully Customizable</span>
+                  <span>Zero Inflation</span>
                 </a>
                 <div className="arrow"></div>
                 <a href="" className="item">
                   <img src="images/2.png" alt="" />
-                  <span>About Studio</span>
+                  <span>Zero Transaction fees</span>
                 </a>
                 <div className="arrow"></div>
                 <a href="" className="item">
                   <img src="images/3.png" alt="" />
-                  <span>Project Team</span>
+                  <span>Real-Time Settlement</span>
                 </a>
               </div>
               <div className="open_more" data-cont="tabs">
@@ -475,9 +484,187 @@ export default function Home() {
               <span>hide</span>
             </div>
           </section>
+          {/* section number 8  */}
+          <section className="container pool skyblue">
+            <h4>Zonta Earn</h4>
+            <div className="earn-section">
+              <div className="item">
+                <h3>01</h3>
+                <h4>Staking</h4>
+                <p>
+                  Staking Zonta Coin is expected to provide a return of 3-5%
+                  annually. This is due to the coin's consensus mechanism, which
+                  rewards Stakers with a steady stream of new tokens at a rate
+                  of 3-5%. The longer the staking period, the higher the
+                  potential return on investment. Many investors are turning to
+                  Zonta Coin staking as a way to earn passive income and grow
+                  their wealth in the long term."
+                </p>
+              </div>
+              <div className="item">
+                <h3>02</h3>
+                <h4>Rewards</h4>
+                <p>
+                  "The Zonta Coin is offering a generous rewards program for all
+                  of its customers. Customers can earn Upto 16% rewards on every
+                  purchase. This is significantly higher than traditional
+                  payment system and makes Zonta Coin an attractive choice for
+                  everyone . The rewards program is open to all customers,
+                  making it accessible for anyone to participate and earn a
+                  substantial and earn rewards
+                </p>
+              </div>
+              <div className="item">
+                <h3>03</h3>
+                <h4>Zonta Investment</h4>
+                <p>
+                  "Zonta offers an investment opportunities that not only allow
+                  you to earn and re-invest, but also guarantees a competitive
+                  return on investment through its advanced algorithm. Zonta
+                  Coin's unique algorithm ensures that your returns are always
+                  among the best in the market."
+                </p>
+              </div>
+              <div className="item">
+                <h3>04</h3>
+                <h4>Trading service token</h4>
+                <p>
+                  "Trading Zonta's service token is easy and user-friendly,
+                  providing an accessible way for investors to profit. The
+                  unique features of the token offer a wide range of benefits
+                  and potential returns, making it a valuable addition to any
+                  trading portfolio."
+                </p>
+              </div>
+            </div>
+          </section>
+          {/* section number 9  */}
+          <section className="container staking">
+            <h4>Zonta Staking model</h4>
+            <div className="pool-section">
+              <div className="sub-text">
+                <h4>Locked & Flexible Staking</h4>
+                <p>
+                  <div>
+                    <img width="50px" src="/images/dots-img.png" alt="" />
+                  </div>
+                  A staking model is a type of consensus mechanism used in
+                  blockchain technology to validate transactions and add new
+                  blocks to the chain. In a staking model, instead of using
+                  computational power (as in Proof of Work) or ownership of a
+                  certain amount of cryptocurrency (as in Proof of Ownership),
+                  validators "stake" or lock up a certain amount of the
+                  cryptocurrency as collateral.
+                </p>
+              </div>
+              <div>
+                <img width="500px" src="/images/loading-img.png" alt="" />
+              </div>
+            </div>
+          </section>
+          {/* section number 10  */}
+          <section className="container pool skyblue">
+            <h4>Eco-Friendly</h4>
+            <div className="pool-section">
+              <div className="sub-text">
+                <h4>We are Green</h4>
+                <p>
+                  Staking, as a consensus mechanism in blockchain technology is
+                  fully eco-friendly than other methods such as proof-of-work
+                  (PoW). Validators "stake" or lock up a certain amount of the
+                  crypto as collateral, rather than using computational power.
+                  This reduces the energy consumption needed to validate
+                  transactions and add new blocks to the blockchain. It also
+                  creates an economic incentive for validators to act honestly
+                  and disincentives malicious behavior, which further increases
+                  the security of the network
+                </p>
+              </div>
+              <div>
+                <img width="500px" src="/images/grop-img-1.png" alt="" />
+              </div>
+            </div>
+          </section>
+          {/* roadmap */}
           <section className="container pad90-top yellowgreen">
             <div className="main white">
-              <h1>6231</h1>
+              <h3>our roadmap</h3>
+              <div className="roadmap">
+                <div className="line"></div>
+                <div className="roadmap-items">
+                  <div className="titleName">
+                    <strong>Q1 2023</strong>
+                  </div>
+                  <div className="point-icon">
+                    <img src="/images/wallet-icon.png" alt="" />
+                  </div>
+                  <div>
+                    <strong>Stage Green</strong>
+                    <ul>
+                      <li>• Website</li>
+                      <li>• Web Wallet</li>
+                      <li>• Pre-sale</li>
+                      <li>• Sell and Buy Zonta Crypto</li>
+                      <li>• Staking</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="roadmap-items">
+                  <div>
+                    <strong>Q2 2023</strong>
+                  </div>
+                  <div className="point-icon">
+                    <img src="/images/bag-icon.png" alt="" />
+                  </div>
+                  <div>
+                    <strong>Stage Red</strong>
+                    <ul>
+                      <li>• Exchange Listing</li>
+                      <li>• Loans</li>
+                      <li>• Hedge Funds</li>
+                      <li>• Trading</li>
+                      <li>• Real Estate.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="roadmap-items">
+                  <div>
+                    <strong>Q3 2023</strong>
+                  </div>
+                  <div className="point-icon">
+                    <img src="/images/stage-icon.png" alt="" />
+                  </div>
+                  <div>
+                    <strong>Stage Blue</strong>
+                    <ul>
+                      <li>• Cross Chain Bridging</li>
+                      <li>• Credit Card</li>
+                      <li>• Merchant</li>
+                      <li>• Digital Estate</li>
+                      <li>• Mobile Applications</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="roadmap-items">
+                  <div>
+                    <strong>Q4 2023</strong>
+                  </div>
+                  <div className="point-icon">
+                    <img src="/images/plan-icon.png" alt="" />
+                  </div>
+                  <div>
+                    <strong>Stage Yellow</strong>
+                    <ul>
+                      <li>• NFT</li>
+                      <li>• Digital Land</li>
+                      <li>• Land Mining</li>
+                      <li>• Marketplace.</li>
+                      <li>&nbsp;</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* <h1>6231</h1>
               <h4 className="light">
                 ...cups of coffee was consumed by our team in 2014. And yes,
                 this figure here is for no reason.
@@ -487,7 +674,7 @@ export default function Home() {
               <div className="widget_skills">
                 <div className="widget_inner">
                   <div className="skills_row">
-                    <span className="value">5474</span>
+                    <span className="value">Q1 2023</span>
                     <div className="progressbar">
                       <div className="progress" data-process="80%">
                         <div className="before"></div>
@@ -496,10 +683,18 @@ export default function Home() {
                       <div className="foot"></div>
                       <div className="shadow"></div>
                     </div>
-                    <span className="caption">L1</span>
+                    <span className="caption">
+                      <ul>
+                        <li>Website</li>
+                        <li>Web Wallet</li>
+                        <li>Pre-sale</li>
+                        <li>Sell and Buy Zonta Crypto</li>
+                        <li>Staking</li>
+                      </ul>
+                    </span>
                   </div>
                   <div className="skills_row">
-                    <span className="value">856</span>
+                    <span className="value">Q2 2023</span>
                     <div className="progressbar">
                       <div className="progress" data-process="40%">
                         <div className="before"></div>
@@ -507,10 +702,18 @@ export default function Home() {
                       </div>
                       <div className="foot"></div>
                     </div>
-                    <span className="caption">L2</span>
+                    <span className="caption">
+                      <ul>
+                        <li>Exchange Listing</li>
+                        <li>Loans</li>
+                        <li>Hedge Funds</li>
+                        <li>Trading</li>
+                        <li>Real Estate</li>
+                      </ul>
+                    </span>
                   </div>
                   <div className="skills_row">
-                    <span className="value">3568</span>
+                    <span className="value">Q3 2023</span>
                     <div className="progressbar">
                       <div className="progress" data-process="70%">
                         <div className="before"></div>
@@ -518,10 +721,18 @@ export default function Home() {
                       </div>
                       <div className="foot"></div>
                     </div>
-                    <span className="caption">L3</span>
+                    <span className="caption">
+                      <ul>
+                        <li>Cross Chain Bridging</li>
+                        <li>Credit Card</li>
+                        <li>Merchant</li>
+                        <li>Digital Estate</li>
+                        <li>Mobile Applications</li>
+                      </ul>
+                    </span>
                   </div>
                   <div className="skills_row">
-                    <span className="value">2354</span>
+                    <span className="value">Q4 2023</span>
                     <div className="progressbar">
                       <div className="progress" data-process="60%">
                         <div className="before"></div>
@@ -529,7 +740,14 @@ export default function Home() {
                       </div>
                       <div className="foot"></div>
                     </div>
-                    <span className="caption">L4</span>
+                    <span className="caption">
+                      <ul>
+                        <li> NFT</li>
+                        <li>Digital Land</li>
+                        <li>Land Mining</li>
+                        <li>Marketplace.</li>
+                      </ul>
+                    </span>
                   </div>
                   <div className="skills_row">
                     <span className="value">6231</span>
@@ -554,10 +772,114 @@ export default function Home() {
                     <span className="caption">L6</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="open_more" data-cont="post_sdb">
                 <div className="icon-down-open"></div>
                 <span>more</span>
+              </div>
+            </div>
+          </section>
+          {/* section number 14  */}
+          <section className="container pool">
+            <h4>Loan Pool</h4>
+            <div className="pool-section">
+              <div className="sub-text">
+                <h4>
+                  Financial Solutions,
+                  <br /> Personalized for you
+                </h4>
+                <p>
+                  Zonta provides personal loans to individual borrowers for
+                  personal use. These loans can be used for a variety of
+                  purposes such as consolidating debt, paying for home
+                  improvements, financing a big purchase, or covering unexpected
+                  expenses. Zonta evaluates the borrower's creditworthiness,
+                  income, and debt-to-income ratio to determine the loan amount,
+                  interest rate, and repayment terms. Personal loans can be
+                  unsecured or secured, and the repayment period can range from
+                  a few months to several years. Zonta also provides a platform
+                  to apply for loan, check status of loan and make repayment.
+                </p>
+              </div>
+              <div>
+                <img src="/images/loan-img.png" alt="" />
+              </div>
+            </div>
+          </section>
+          {/* section number 18  */}
+          <section className="container staking skyblue">
+            <h4>Hedge Funds</h4>
+            <div className="pool-section">
+              <div className="sub-text">
+                <h4>Never Worry About Your Funds.</h4>
+                <p>
+                  <div>
+                    <img width="50px" src="/images/dots-img.png" alt="" />
+                  </div>
+                  Zonta provides hedge funds acts as the manager of hedge funds,
+                  and is responsible for making investment decisions, managing
+                  risk, and overseeing the day-to-day operations of the funds.
+                  Zonta also provide administrative and compliance services,
+                  such as preparing financial statements and reports, and
+                  ensuring that the fund is in compliance with relevant
+                  regulations. Zonta also provides services such as investment
+                  research, portfolio management, and risk management.
+                </p>
+              </div>
+              <div>
+                <img width="400px" src="/images/logo-new.png" alt="" />
+              </div>
+            </div>
+          </section>
+          {/* section number 19  */}
+          <section className="container staking ">
+            <h4>our Goals</h4>
+            <div className="ourGoals">
+              <div className="goals-items">
+                <div className="titleNo item-1">1</div>
+                <div>
+                  <h5>1. Zero Inflation</h5>
+                  <p>
+                    Zero inflation will make overall level of prices for goods
+                    and services remain stable, with no overall increase or
+                    decrease.
+                  </p>
+                </div>
+              </div>
+              <div className="goals-items">
+                <div className="titleNo item-3">3</div>
+                <div>
+                  <h5>3. Carbon Credits</h5>
+                  <p>
+                    Carbon credits are a type of permit that allow Zonta to emit
+                    a certain amount of greenhouse gases. They can be bought and
+                    sold on carbon markets
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="ourGoals">
+              <div className="goals-items">
+                <div className="titleNo item-2">2</div>
+                <div>
+                  <h5>2. Zero Transaction fees</h5>
+                  <p>
+                    Using Zonta Coin, user is not required to pay any additional
+                    costs to the network or intermediary for the processing or
+                    completion of their transaction. .
+                  </p>
+                </div>
+              </div>
+              <div className="goals-items">
+                <div className="titleNo item-4">4</div>
+                <div>
+                  <h5>4. Eco-Friendly</h5>
+                  <p>
+                    The goal of Zonta coin is to reduce the carbon footprint of
+                    the cryptocurrency industry which is known to consume large
+                    amounts of electricity
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -1095,8 +1417,8 @@ export default function Home() {
           <footer className="footer container cadetblue">
             <div className="main white">
               <div className="logo">
-                <img src="images/logo.png" alt="" />
-                <h3>rock group</h3>
+                <img width="80px" src="images/logo-new.png" alt="" />
+                <h3>Zonta Coin</h3>
                 <h6>infographic theme</h6>
               </div>
               <div className="content">

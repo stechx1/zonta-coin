@@ -112,10 +112,10 @@ h1{font-size: 90px; font-weight: 800; text-transform:uppercase; margin-top: 0; m
 h2{font-size: 36px; font-weight: 800; margin-bottom: 20px; margin-top: 0;}
 h3{font-size: 30px; font-weight: 800; text-transform:uppercase; letter-spacing: 6px;}
 h4{font-size: 24px; font-weight: 700; text-transform: uppercase; letter-spacing: 8px; margin-top: 0;}
-h4.light{font-size: 24px; font-weight: 300; text-transform:none; letter-spacing: 0.5px;}
+h4.light{font-size: 24px; font-weight: 300; text-transform:none; letter-spacing: 0.5px; position: relative; z-index: 33;}
 h4.light b{text-transform:uppercase; font-weight: 800;}
 h5{font-size: 18px; text-transform: uppercase; }
-h6{font-size: 10px; text-transform: uppercase; letter-spacing: 4px;}
+h6{font-size: 14px; text-transform: uppercase; letter-spacing: 4px;}
 .content.large{font-size: 16px; line-height: 24px; font-weight: 300;}
 .white{color: #fff !important;}
 .gray{color: #8b8b8b !important;}
@@ -842,3 +842,5 @@ ul.number li,ul.arrow li,ul.star li,ul.heart li{font-size:14px;color:#8b8b8b;lin
 .marg30-bot{margin-bottom: 30px;}
 
 .marg0{margin: 0;}
+
+
